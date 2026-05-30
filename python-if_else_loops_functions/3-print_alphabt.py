@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+output = ""
 for c in range(97, 123):
     if c != 101 and c != 113:
-        print(chr(c), end="")
+        output += chr(c)
+print("{}".format(output))
