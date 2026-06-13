@@ -16,4 +16,3 @@ def roman_to_int(roman_string):
             result += curr
         prev = curr
     return result
-
